@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.maincontainer {
+    width: 100%;
+    height: 130vh;
+    background-color: #D9DCE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav{
+    width: 100%;
+    height: 12vh;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul img {
+    width: 100px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav ul:first-child {
+    width: 30%;
+    
+}
+
+.nav ul:nth-child(2) {
+    width: 40%;
+    margin-right: 25%;
+}
+
+.nav ul:last-child {
+    margin-right: 4%;
+    width: 8%;
+}
+
+.container1 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/360_F_680310952_AEirPjQsLWFyEV5m2xZT0EYxJXv6mh6l.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.left {
+    width: 28%;
+    height: 50vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.left ul {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 30px;
+    padding-left: 14px;
+    padding-top: 30px;
+}
+
+.left ul li div {
+    width: 110px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 8px;
+}
+
+.left ul li {
+    color: #57595B;
+}
+
+.right {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.right h1 {
+    padding-top: 40px;
+    color: #33373A;
+    font-size: 45px;
+}
+
+.right p {
+    color: #33373A;
+    font-size: 15px;
+    padding-block: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 30vh;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.box div {
+    width: 25%;
+    height: 25vh;
+    background: rgb(199, 206, 231);
+    background: linear-gradient(0deg, rgba(199, 206, 231, 1) 10%, rgba(242, 246, 243, 1) 74%);
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-right:1px solid #e9e9ef;
+    padding-left: 22px;
+}
+
+.box div h2 {
+    color:#464647;
+    font-size: 20px;
+}
+
+.box div span {
+    color:#354b82;
+}
+
+.box div p {
+    font-size: 12px;
+    color: #5f6366;
+}
+#five{
+    padding-block: 10px;
+}
+#wallet{
+    color: #da6425;
+}
+#trans{
+    color:#7c4cc5;
+}
+
+
+@media (max-width:768px) {
+    .nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .nav ul li{
+        font-size: 10px;
+    }
+    .nav ul img{
+        width: 80px;
+    }
+    .container1{
+        width: 100%;
+        /* height: 120vh; */
+        /* background-color: red; */
+    }
+    .left{
+        width: 50%;
+        /* background-color: red; */
+    }
+    .right h1{
+        font-size: 25px;
+    }
+    .right p{
+        font-size: 10px;
+    }
+    .left ul li{
+        font-size: 14px;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        /* background: red; */
+    }
+    .box div{
+        width: 34%;
+    }
+    .box div h2{
+        font-size: 12px;
+    }
+    .box div p{
+        font-size: 10px;
+        /* text-align: center; */
+        /* display: flex;
+        align-items: start;
+        justify-content: start; */
+    }
+    .box div p br{
+        display: none;
+    }
+    #last{
+        padding-top: 1%;
+        /* margin-block: 1%; */
+    }
+    #last1{
+        padding-top: 8%;
+    }
+   
+    @media (max-width:448px) {
+        .nav ul img{
+            width: 50px;
+        }
+        .nav{
+            padding-inline: 5%;
+        }
+        
+        .nav ul li{
+            font-size: 10px;
+
+        }
+    }
+
+
+
+}
